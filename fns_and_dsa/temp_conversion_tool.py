@@ -12,7 +12,7 @@ def convert_to_celsius(fahrenheit):
     print (f"{fahrenheit}°F is {converted_temprature}°C")
 
 def convert_to_fahrenheit(celsius):
-    converted_temprature = (CELSIUS_TO_FAHRENHEIT_FACTOR * celsius) + 32
+    converted_temprature = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     print (f"{celsius}°C is {converted_temprature}°F")
 
 match current_scale:
